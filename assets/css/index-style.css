@@ -9,9 +9,9 @@
 }
 
 main {
-    background-color: rgb(25, 28, 32);
+    background-color: black;
     color: rgb(255, 255, 240);
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
 }
 
 .title {
@@ -37,17 +37,19 @@ main {
 }
 
 #question-area {
-   padding-top: 10px;
+    padding-top: 10px;
 }
 
 #movie1 {
     font-family: "SFMoviePoster";
-    font-size: 350%;
+    font-size: 300%;
     text-align: center;
+    margin-bottom: 0px;
 }
 
 #movie2 {
     font-family: "SFMoviePoster";
-    font-size: 350%;
+    font-size: 300%;
     text-align: center;
+    margin-bottom: 0px;
 }

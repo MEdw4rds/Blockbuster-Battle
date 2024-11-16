@@ -18,7 +18,7 @@
 /* Main on homepage */
 .wai-main-bg {
     background-color: black;
-    background: url('../images/bg_leader3.png');
+    background: url('../images/bg3.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -61,10 +61,26 @@
 }
 
 table {
-    max-width: 28%;
+    max-width: 38%;
     margin: auto;
 }
 
+/* loading page */
+.ml4 {
+    position: relative;
+    font-weight: 900;
+    font-size: 4.5em;
+}
+
+.ml4 .letters {
+    color: #df5555;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 2em;
+    right: 0;
+    opacity: 0; 
+}
 
 /* Modal feedback styling  */
 .modal-content {
